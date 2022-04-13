@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Mar 29 22:47:49 2022
+# Process ID: 2936
+# Current directory: C:/hdmi_demo_2016/attempt3/Nexys-Video-HDMI-2016.4-2/Nexys-Video-HDMI/proj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10676 C:\hdmi_demo_2016\attempt3\Nexys-Video-HDMI-2016.4-2\Nexys-Video-HDMI\proj\HDMI.xpr
+# Log file: C:/hdmi_demo_2016/attempt3/Nexys-Video-HDMI-2016.4-2/Nexys-Video-HDMI/proj/vivado.log
+# Journal file: C:/hdmi_demo_2016/attempt3/Nexys-Video-HDMI-2016.4-2/Nexys-Video-HDMI/proj\vivado.jou
+#-----------------------------------------------------------
+start_gui
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Mar 29 22:50:35 2022...
