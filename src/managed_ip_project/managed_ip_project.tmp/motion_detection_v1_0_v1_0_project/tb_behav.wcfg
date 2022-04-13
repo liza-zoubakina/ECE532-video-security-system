@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="7372850504525fs"></ZoomStartTime>
+      <ZoomEndTime time="7373692299095fs"></ZoomEndTime>
+      <Cursor1Time time="7372911898000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="167"></NameColumnWidth>
+      <ValueColumnWidth column_width="50"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="33" />
+   <wvobject fp_name="/tb/tuser" type="logic">
+      <obj_property name="ElementShortName">tuser</obj_property>
+      <obj_property name="ObjectShortName">tuser</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/rstn" type="logic">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/tvld" type="logic">
+      <obj_property name="ElementShortName">tvld</obj_property>
+      <obj_property name="ObjectShortName">tvld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/tdata" type="array">
+      <obj_property name="ElementShortName">tdata[23:0]</obj_property>
+      <obj_property name="ObjectShortName">tdata[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/empaxi_inst0/new_frame_pix_delay_reg_1" type="array">
+      <obj_property name="ElementShortName">new_frame_pix_delay_reg_1[23:0]</obj_property>
+      <obj_property name="ObjectShortName">new_frame_pix_delay_reg_1[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/empaxi_inst0/new_frame_pix_delay_reg_2" type="array">
+      <obj_property name="ElementShortName">new_frame_pix_delay_reg_2[23:0]</obj_property>
+      <obj_property name="ObjectShortName">new_frame_pix_delay_reg_2[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/tlast" type="logic">
+      <obj_property name="ElementShortName">tlast</obj_property>
+      <obj_property name="ObjectShortName">tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/tready" type="logic">
+      <obj_property name="ElementShortName">tready</obj_property>
+      <obj_property name="ObjectShortName">tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/o_counter" type="array">
+      <obj_property name="ElementShortName">o_counter[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_counter[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/l_counter" type="array">
+      <obj_property name="ElementShortName">l_counter[15:0]</obj_property>
+      <obj_property name="ObjectShortName">l_counter[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/f_counter" type="array">
+      <obj_property name="ElementShortName">f_counter[15:0]</obj_property>
+      <obj_property name="ObjectShortName">f_counter[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/frame_wait" type="array">
+      <obj_property name="ElementShortName">frame_wait[31:0]</obj_property>
+      <obj_property name="ObjectShortName">frame_wait[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/led" type="logic">
+      <obj_property name="ElementShortName">led</obj_property>
+      <obj_property name="ObjectShortName">led</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/ii" type="array">
+      <obj_property name="ElementShortName">ii[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ii[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/empaxi_inst0/frame0_wen" type="logic">
+      <obj_property name="ElementShortName">frame0_wen</obj_property>
+      <obj_property name="ObjectShortName">frame0_wen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/empaxi_inst0/frame0_waddr_counter" type="array">
+      <obj_property name="ElementShortName">frame0_waddr_counter[18:0]</obj_property>
+      <obj_property name="ObjectShortName">frame0_waddr_counter[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/empaxi_inst0/frame0_waddr" type="array">
+      <obj_property name="ElementShortName">frame0_waddr[18:0]</obj_property>
+      <obj_property name="ObjectShortName">frame0_waddr[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/empaxi_inst0/frame0_wdata" type="array">
+      <obj_property name="ElementShortName">frame0_wdata[23:0]</obj_property>
+      <obj_property name="ObjectShortName">frame0_wdata[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/empaxi_inst0/frame0_raddr" type="array">
+      <obj_property name="ElementShortName">frame0_raddr[18:0]</obj_property>
+      <obj_property name="ObjectShortName">frame0_raddr[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/empaxi_inst0/frame0_rdata" type="array">
+      <obj_property name="ElementShortName">frame0_rdata[23:0]</obj_property>
+      <obj_property name="ObjectShortName">frame0_rdata[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/empaxi_inst0/store_new_data_states" type="array">
+      <obj_property name="ElementShortName">store_new_data_states[3:0]</obj_property>
+      <obj_property name="ObjectShortName">store_new_data_states[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/empaxi_inst0/dsp_in_r" type="array">
+      <obj_property name="ElementShortName">dsp_in_r[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dsp_in_r[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/empaxi_inst0/dsp_in_r_prev" type="array">
+      <obj_property name="ElementShortName">dsp_in_r_prev[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dsp_in_r_prev[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/empaxi_inst0/dsp_in_g" type="array">
+      <obj_property name="ElementShortName">dsp_in_g[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dsp_in_g[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/empaxi_inst0/dsp_in_g_prev" type="array">
+      <obj_property name="ElementShortName">dsp_in_g_prev[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dsp_in_g_prev[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/empaxi_inst0/dsp_in_b" type="array">
+      <obj_property name="ElementShortName">dsp_in_b[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dsp_in_b[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/empaxi_inst0/dsp_in_b_prev" type="array">
+      <obj_property name="ElementShortName">dsp_in_b_prev[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dsp_in_b_prev[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/empaxi_inst0/dsp_out_final" type="array">
+      <obj_property name="ElementShortName">dsp_out_final[17:0]</obj_property>
+      <obj_property name="ObjectShortName">dsp_out_final[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/empaxi_inst0/pixel_motion_val" type="array">
+      <obj_property name="ElementShortName">pixel_motion_val[17:0]</obj_property>
+      <obj_property name="ObjectShortName">pixel_motion_val[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/empaxi_inst0/motion_pixel_count" type="array">
+      <obj_property name="ElementShortName">motion_pixel_count[18:0]</obj_property>
+      <obj_property name="ObjectShortName">motion_pixel_count[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/empaxi_inst0/led_counter" type="array">
+      <obj_property name="ElementShortName">led_counter[31:0]</obj_property>
+      <obj_property name="ObjectShortName">led_counter[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/empaxi_inst0/v_d_15" type="logic">
+      <obj_property name="ElementShortName">v_d_15</obj_property>
+      <obj_property name="ObjectShortName">v_d_15</obj_property>
+   </wvobject>
+</wave_config>

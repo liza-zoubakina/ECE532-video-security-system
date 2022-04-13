@@ -1,0 +1,7 @@
+0.6
+2016.4
+Jan 23 2017
+19:37:30
+c:/hdmi_demo_2016/motion_detection_ip/ip_repo/edit_motion_detection_v1_0.sim/sim_1/tb.sv,1648655756,systemVerilog,,,,tb,,,,,,,,
+c:/hdmi_demo_2016/motion_detection_ip/ip_repo/motion_detection_1.0/hdl/motion_detection_v1_0.v,1648653568,verilog,,,,add_dsp;dsp;dsp_logic;frame0;motion_detection_v1_0,,,,,,,,
+c:/hdmi_demo_2016/motion_detection_ip/managed_ip_project/managed_ip_project.tmp/motion_detection_v1_0_v1_0_project/motion_detection_v1_0_v1_0_project.sim/sim_1/behav/glbl.v,1485222234,verilog,,,,glbl,,,,,,,,

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed Mar 30 11:56:05 2022
+# Process ID: 13604
+# Current directory: c:/hdmi_demo_2016/motion_detection_ip/managed_ip_project/managed_ip_project.tmp/motion_detection_v1_0_v1_0_project/motion_detection_v1_0_v1_0_project.sim/sim_1/behav
+# Command line: wbtcv.exe -mode batch -source c:/hdmi_demo_2016/motion_detection_ip/managed_ip_project/managed_ip_project.tmp/motion_detection_v1_0_v1_0_project/motion_detection_v1_0_v1_0_project.sim/sim_1/behav/xsim.dir/tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: c:/hdmi_demo_2016/motion_detection_ip/managed_ip_project/managed_ip_project.tmp/motion_detection_v1_0_v1_0_project/motion_detection_v1_0_v1_0_project.sim/sim_1/behav/webtalk.log
+# Journal file: c:/hdmi_demo_2016/motion_detection_ip/managed_ip_project/managed_ip_project.tmp/motion_detection_v1_0_v1_0_project/motion_detection_v1_0_v1_0_project.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source c:/hdmi_demo_2016/motion_detection_ip/managed_ip_project/managed_ip_project.tmp/motion_detection_v1_0_v1_0_project/motion_detection_v1_0_v1_0_project.sim/sim_1/behav/xsim.dir/tb_behav/webtalk/xsim_webtalk.tcl -notrace

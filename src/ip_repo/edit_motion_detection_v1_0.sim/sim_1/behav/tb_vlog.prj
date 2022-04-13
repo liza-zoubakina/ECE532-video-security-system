@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../motion_detection_1.0/hdl/motion_detection_v1_0.v"
+sv xil_defaultlib  "../../../../managed_ip_project/managed_ip_project.sim/tb.sv"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
