@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.3.1 (64-bit)
+# SW Build 2489853 on Tue Mar 26 04:20:25 MDT 2019
+# IP Build 2486929 on Tue Mar 26 06:44:21 MDT 2019
+# Start of session at: Wed Mar  9 10:04:46 2022
+# Process ID: 2260
+# Current directory: W:/demo-20220228T163306Z-001/demo/warmup_group
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent916 W:\demo-20220228T163306Z-001\demo\warmup_group\warmup_group.xpr
+# Log file: W:/demo-20220228T163306Z-001/demo/warmup_group/vivado.log
+# Journal file: W:/demo-20220228T163306Z-001/demo/warmup_group\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project W:/demo-20220228T163306Z-001/demo/warmup_group/warmup_group.xpr
+update_compile_order -fileset sources_1

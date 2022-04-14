@@ -1,0 +1,43 @@
+15:07:19 **** Auto Build of configuration Debug for project warmup_SDK ****
+make all 
+'Building file: ../src/echo.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/echo.o" -I../../warmup_SDK_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/echo.d" -MT"src/echo.o" -o "src/echo.o" "../src/echo.c"
+../src/echo.c: In function 'recv_callback':
+../src/echo.c:56:2: error: expected declaration specifiers before 'if'
+  if (!p) {
+  ^~
+../src/echo.c:63:2: error: expected declaration specifiers before 'tcp_recved'
+  tcp_recved(tpcb, p->len);
+  ^~~~~~~~~~
+../src/echo.c:67:2: error: expected declaration specifiers before 'if'
+  if (tcp_sndbuf(tpcb) > p->len) {
+  ^~
+../src/echo.c:72:4: error: expected declaration specifiers before 'else'
+  } else
+    ^~~~
+../src/echo.c:76:2: error: expected declaration specifiers before 'pbuf_free'
+  pbuf_free(p);
+  ^~~~~~~~~
+../src/echo.c:78:2: error: expected declaration specifiers before 'return'
+  return ERR_OK;
+  ^~~~~~
+../src/echo.c:79:1: error: expected declaration specifiers before '}' token
+ }
+ ^
+../src/echo.c:82:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+../src/echo.c:100:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+../src/echo.c:135:1: error: expected '{' at end of input
+ }
+ ^
+../src/echo.c:135:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/subdir.mk:53: src/echo.o] Error 1
+
+15:07:19 Build Finished (took 499ms)
+

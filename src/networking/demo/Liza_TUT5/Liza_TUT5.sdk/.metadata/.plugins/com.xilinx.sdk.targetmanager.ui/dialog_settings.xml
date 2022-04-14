@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="Local" key="TUT5_bd_wrapper_hw_platform_0-target"/>
+	<item value="bootloop" key="TUT5_bd_wrapper_hw_platform_0-microblaze_0-initElf"/>
+	<item value="TUT5_bd_wrapper_hw_platform_0" key="programfpga.hwplatform"/>
+	<item value="TUT5_bd_wrapper.bit" key="TUT5_bd_wrapper_hw_platform_0-bitFile"/>
+	<item value="Auto Detect" key="TUT5_bd_wrapper_hw_platform_0-device"/>
+	<item value="TUT5_bd_wrapper.mmi" key="TUT5_bd_wrapper_hw_platform_0-bmmFile"/>
+	<item value="false" key="TUT5_bd_wrapper_hw_platform_0-partial_bit"/>
+</section>

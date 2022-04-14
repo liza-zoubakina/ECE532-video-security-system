@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# updatemem v2018.3.1 (64-bit)
+# SW Build 2489853 on Tue Mar 26 04:20:25 MDT 2019
+# 
+# Start of session at: Fri Jan 21 20:30:46 2022
+# Process ID: 6580
+# Current directory: C:/Liza_TUT5
+# Command line: updatemem.exe -mode batch -source C:/DESL/Xilinx/SDK/2018.3/scripts/updatemem/main.tcl -notrace -tclargs -meminfo C:/Liza_TUT5/Liza_TUT5.sdk/TUT5_bd_wrapper_hw_platform_0/TUT5_bd_wrapper.mmi -data C:/DESL/Xilinx/SDK/2018.3/data/embeddedsw/lib/microblaze/mb_bootloop_le.elf -proc TUT5_bd_i/microblaze_0 -bit C:/Liza_TUT5/Liza_TUT5.sdk/TUT5_bd_wrapper_hw_platform_0/TUT5_bd_wrapper.bit -out C:/Liza_TUT5/Liza_TUT5.sdk/TUT5_bd_wrapper_hw_platform_0/download.bit -force
+# Log file: C:/Liza_TUT5/updatemem.log
+# Journal file: C:/Liza_TUT5\updatemem.jou
+#-----------------------------------------------------------
+source C:/DESL/Xilinx/SDK/2018.3/scripts/updatemem/main.tcl -notrace
+ Loading bitfile C:/Liza_TUT5/Liza_TUT5.sdk/TUT5_bd_wrapper_hw_platform_0/TUT5_bd_wrapper.bit
+Loading data files...
+Updating memory content...
+Creating bitstream...
+Writing bitstream C:/Liza_TUT5/Liza_TUT5.sdk/TUT5_bd_wrapper_hw_platform_0/download.bit...
+  update_mem: Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 525.199 ; gain = 458.301
+INFO: [Common 17-206] Exiting updatemem at Fri Jan 21 20:30:58 2022...

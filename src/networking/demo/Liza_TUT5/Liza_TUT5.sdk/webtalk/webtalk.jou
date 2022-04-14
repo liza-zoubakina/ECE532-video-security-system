@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3.1 (64-bit)
+# SW Build 2489853 on Tue Mar 26 04:20:25 MDT 2019
+# 
+# Start of session at: Tue Jan 25 15:42:38 2022
+# Process ID: 6368
+# Current directory: C:/Users/zoubakin/Liza_TUT5/Liza_TUT5.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: C:/Users/zoubakin/Liza_TUT5/Liza_TUT5.sdk/webtalk/webtalk.log
+# Journal file: C:/Users/zoubakin/Liza_TUT5/Liza_TUT5.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

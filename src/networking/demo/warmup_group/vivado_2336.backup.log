@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2018.3.1 (64-bit)
+# SW Build 2489853 on Tue Mar 26 04:20:25 MDT 2019
+# IP Build 2486929 on Tue Mar 26 06:44:21 MDT 2019
+# Start of session at: Mon Jan 24 16:06:14 2022
+# Process ID: 2336
+# Current directory: C:/warmup_group
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6516 C:\warmup_group\warmup_group.xpr
+# Log file: C:/warmup_group/vivado.log
+# Journal file: C:/warmup_group\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/warmup_group/warmup_group.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/DESL/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:26 ; elapsed = 00:00:16 . Memory (MB): peak = 991.273 ; gain = 345.789
+update_compile_order -fileset sources_1
+launch_sdk -workspace C:/warmup_group/warmup_group.sdk -hwspec C:/warmup_group/warmup_group.sdk/wp_bd_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/warmup_group/warmup_group.sdk -hwspec C:/warmup_group/warmup_group.sdk/wp_bd_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Jan 24 16:30:55 2022...

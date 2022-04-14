@@ -1,0 +1,140 @@
+/*
+
+Xilinx Vivado v2018.3.1 (64-bit) [Major: 2018, Minor: 3]
+SW Build: 2489853 on Tue Mar 26 04:20:25 MDT 2019
+IP Build: 2486929 on Tue Mar 26 06:44:21 MDT 2019
+
+Process ID (PID): 4824
+License: Customer
+
+Current time: 	Fri Jan 21 20:13:01 EST 2022
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 2880x1620
+Screen resolution (DPI): 144
+Available screens: 1
+Available disk space: 322 GB
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=18
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/DESL/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4
+Java executable location: 	C:/DESL/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	zoubakin
+User home directory: C:/Users/zoubakin
+User working directory: C:/Liza_TUT5
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/DESL/Xilinx/Vivado
+HDI_APPROOT: C:/DESL/Xilinx/Vivado/2018.3
+RDI_DATADIR: C:/DESL/Xilinx/Vivado/2018.3/data
+RDI_BINDIR: C:/DESL/Xilinx/Vivado/2018.3/bin
+
+Vivado preferences file location: C:/Users/zoubakin/AppData/Roaming/Xilinx/Vivado/2018.3/vivado.xml
+Vivado preferences directory: C:/Users/zoubakin/AppData/Roaming/Xilinx/Vivado/2018.3/
+Vivado layouts directory: C:/Users/zoubakin/AppData/Roaming/Xilinx/Vivado/2018.3/layouts
+PlanAhead jar file location: 	C:/DESL/Xilinx/Vivado/2018.3/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Liza_TUT5/vivado.log
+Vivado journal file location: 	C:/Liza_TUT5/vivado.jou
+Engine tmp dir: 	C:/Liza_TUT5/.Xil/Vivado-4824-BA3145WS07
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/DESL/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINXD_LICENSE_FILE: 40012@mlm.ece.utoronto.ca;27012@mlm.ece.utoronto.ca
+XILINX_DSP: C:/DESL/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_PLANAHEAD: C:/DESL/Xilinx/Vivado/2018.3
+XILINX_SDK: C:/DESL/Xilinx/SDK/2018.3
+XILINX_VIVADO: C:/DESL/Xilinx/Vivado/2018.3
+XILINX_VIVADO_HLS: C:/DESL/Xilinx/Vivado/2018.3
+
+
+GUI allocated memory:	159 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 677 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 93 MB (+95001kb) [00:00:05]
+// [Engine Memory]: 568 MB (+444373kb) [00:00:05]
+// bx (cp):  Open Project : addNotify
+// Opening Vivado Project: C:\Liza_TUT5\Liza_TUT5.xpr. Version: Vivado v2018.3.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Liza_TUT5/Liza_TUT5.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 719 MB. GUI used memory: 61 MB. Current time: 1/21/22, 8:13:03 PM EST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 117 MB (+20778kb) [00:00:17]
+// [Engine Memory]: 832 MB (+246325kb) [00:00:17]
+// [Engine Memory]: 875 MB (+1360kb) [00:00:19]
+// [GUI Memory]: 125 MB (+1303kb) [00:00:19]
+// WARNING: HEventQueue.dispatchEvent() is taking  4238 ms.
+// [Engine Memory]: 926 MB (+7892kb) [00:00:20]
+// Tcl Message: open_project C:/Liza_TUT5/Liza_TUT5.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/DESL/Xilinx/Vivado/2018.3/data/ip'. 
+// [GUI Memory]: 139 MB (+8695kb) [00:00:21]
+// WARNING: HEventQueue.dispatchEvent() is taking  2506 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1198 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:26 ; elapsed = 00:00:15 . Memory (MB): peak = 968.629 ; gain = 346.477 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,356 MB. GUI used memory: 89 MB. Current time: 1/21/22, 8:13:19 PM EST
+// Project name: Liza_TUT5; location: C:/Liza_TUT5; part: xc7a100tcsg324-1
+// [Engine Memory]: 1,356 MB (+402266kb) [00:00:26]
+dismissDialog("Open Project"); // bx (cp)
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 142 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ac (cp)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // af (cp)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa (cp): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+dismissDialog("Launch SDK"); // aa (cp)
+// Tcl Message: launch_sdk -workspace C:/Liza_TUT5/Liza_TUT5.sdk -hwspec C:/Liza_TUT5/Liza_TUT5.sdk/TUT5_bd_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace C:/Liza_TUT5/Liza_TUT5.sdk -hwspec C:/Liza_TUT5/Liza_TUT5.sdk/TUT5_bd_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// [GUI Memory]: 146 MB (+92kb) [00:13:10]
+// [GUI Memory]: 156 MB (+2271kb) [00:18:49]
+// [GUI Memory]: 164 MB (+46kb) [00:23:43]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,356 MB. GUI used memory: 90 MB. Current time: 1/21/22, 8:43:23 PM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,356 MB. GUI used memory: 87 MB. Current time: 1/21/22, 9:13:24 PM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,356 MB. GUI used memory: 85 MB. Current time: 1/21/22, 9:43:24 PM EST

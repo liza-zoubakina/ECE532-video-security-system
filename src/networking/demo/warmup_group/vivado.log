@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2018.3.1 (64-bit)
+# SW Build 2489853 on Tue Mar 26 04:20:25 MDT 2019
+# IP Build 2486929 on Tue Mar 26 06:44:21 MDT 2019
+# Start of session at: Wed Mar  9 10:04:46 2022
+# Process ID: 2260
+# Current directory: W:/demo-20220228T163306Z-001/demo/warmup_group
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent916 W:\demo-20220228T163306Z-001\demo\warmup_group\warmup_group.xpr
+# Log file: W:/demo-20220228T163306Z-001/demo/warmup_group/vivado.log
+# Journal file: W:/demo-20220228T163306Z-001/demo/warmup_group\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project W:/demo-20220228T163306Z-001/demo/warmup_group/warmup_group.xpr
+Scanning sources...
+Finished scanning sources
+CRITICAL WARNING: [Board 49-67] The board_part definition was not found for digilentinc.com:nexys4_ddr:part0:1.1. This can happen sometimes when you use custom board part. You can resolve this issue by setting 'board.repoPaths' parameter, pointing to the location of custom board files. Valid board_part values can be retrieved with the 'get_board_parts' Tcl command.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/DESL/Xilinx/Vivado/2018.3/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'wp_bd.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+wp_bd_clk_wiz_1_0
+wp_bd_axi_uartlite_0_0
+wp_bd_rst_clk_wiz_1_100M_0
+wp_bd_mig_7series_0_0
+wp_bd_mii_to_rmii_0_0
+wp_bd_axi_ethernetlite_0_0
+wp_bd_rst_mig_7series_0_81M_0
+wp_bd_axi_smc_0
+
+open_project: Time (s): cpu = 00:00:44 ; elapsed = 00:02:25 . Memory (MB): peak = 1620.535 ; gain = 992.504
+update_compile_order -fileset sources_1
+exit

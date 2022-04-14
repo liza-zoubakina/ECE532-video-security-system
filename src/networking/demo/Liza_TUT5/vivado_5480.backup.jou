@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2018.3.1 (64-bit)
+# SW Build 2489853 on Tue Mar 26 04:20:25 MDT 2019
+# IP Build 2486929 on Tue Mar 26 06:44:21 MDT 2019
+# Start of session at: Tue Jan 25 15:30:16 2022
+# Process ID: 5480
+# Current directory: C:/Users/zoubakin/Liza_TUT5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8080 C:\Users\zoubakin\Liza_TUT5\Liza_TUT5.xpr
+# Log file: C:/Users/zoubakin/Liza_TUT5/vivado.log
+# Journal file: C:/Users/zoubakin/Liza_TUT5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/zoubakin/Liza_TUT5/Liza_TUT5.xpr
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/zoubakin/Liza_TUT5/Liza_TUT5.srcs/sources_1/bd/TUT5_bd/TUT5_bd.bd}
+launch_sdk -workspace C:/Users/zoubakin/Liza_TUT5/Liza_TUT5.sdk -hwspec C:/Users/zoubakin/Liza_TUT5/Liza_TUT5.sdk/TUT5_bd_wrapper.hdf
+launch_sdk -workspace C:/Users/zoubakin/Liza_TUT5/Liza_TUT5.sdk -hwspec C:/Users/zoubakin/Liza_TUT5/Liza_TUT5.sdk/TUT5_bd_wrapper.hdf
+launch_sdk -workspace C:/Users/zoubakin/Liza_TUT5/Liza_TUT5.sdk -hwspec C:/Users/zoubakin/Liza_TUT5/Liza_TUT5.sdk/TUT5_bd_wrapper.hdf

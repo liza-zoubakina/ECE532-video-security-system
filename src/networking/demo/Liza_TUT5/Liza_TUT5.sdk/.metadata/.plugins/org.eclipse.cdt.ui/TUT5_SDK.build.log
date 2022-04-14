@@ -1,0 +1,21 @@
+23:14:23 **** Auto Build of configuration Debug for project TUT5_SDK ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../TUT5_SDK_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: TUT5_SDK.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../TUT5_SDK_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "TUT5_SDK.elf"  ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: TUT5_SDK.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size TUT5_SDK.elf  |tee "TUT5_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 191444	   1556	3962384	4155384	 3f67f8	TUT5_SDK.elf
+'Finished building: TUT5_SDK.elf.size'
+' '
+
+23:14:24 Build Finished (took 1s.256ms)
+
