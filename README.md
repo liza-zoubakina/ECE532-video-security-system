@@ -28,6 +28,10 @@ src - Source files for the project.
 		↪ motion_detection_1.0 - This is the folder containing the component.xml file of the motion detection IP.
 
 	↪ managed_ip_project - This folder contains managed_ip_project.xpr where we can edit and repackage the motion detection IP.
+	
+	↪networking/demo - This is the source folder containing the networking components
+	
+		↪email_sending_functionality.py - Within the folder, this is the Python script for the emailing functionality
 
 ## Authors
 This project was developed by Liza Zoubakina, Moeen Ahmed, and Ishraq Quayyum for their ECE532 Project.
